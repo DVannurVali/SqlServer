@@ -8,12 +8,12 @@ signup_date varchar(20));
 --creating second table with users
 create table users(
 userid varchar(20),
-signup_date varchar(20));
+signup_date varchar(20)); 
 --creating third table with sales
 create table sales(
 userid varchar(20),
 created_date varchar(20),
-product_id int);
+product_id int); 
 --creating fourth table with product
 create table product(
 product_id int,

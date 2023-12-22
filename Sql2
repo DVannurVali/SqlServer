@@ -6,8 +6,8 @@ first_name varchar(20),
 last_name varchar(20),
 city varchar(20),
 age int,
-check (age < 21));
-
+check (age < 21));  
+  
 /*1.Insert the  4 records with age less than 21 and 
 atleast one record should have city value as “Mumbai”*/
 insert into persons (first_name, last_name, city, age) values
